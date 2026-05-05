@@ -1,0 +1,60 @@
+[
+  {
+    "id": "task-001",
+    "title": "Complete Milestone 7 Module",
+    "description": "Finish remaining lessons and practice exercises",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-05-08",
+    "createdAt": "2026-05-05T10:00:00Z",
+    "tags": ["study", "programming"],
+    "estimatedTime": 120,
+    "subtasks": [
+      {
+        "id": "sub-001",
+        "title": "Watch remaining videos",
+        "completed": true
+      },
+      {
+        "id": "sub-002",
+        "title": "Practice coding problems",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": "task-002",
+    "title": "Revise Linear Algebra",
+    "description": "Focus on eigenvalues and matrices",
+    "status": "todo",
+    "priority": "medium",
+    "dueDate": "2026-05-10",
+    "createdAt": "2026-05-05T11:00:00Z",
+    "tags": ["math", "exam"],
+    "estimatedTime": 90,
+    "subtasks": []
+  },
+  {
+    "id": "task-003",
+    "title": "Build Hero UI for project",
+    "description": "Design and implement landing section",
+    "status": "todo",
+    "priority": "high",
+    "dueDate": "2026-05-06",
+    "createdAt": "2026-05-05T12:00:00Z",
+    "tags": ["frontend", "design"],
+    "estimatedTime": 60,
+    "subtasks": [
+      {
+        "id": "sub-003",
+        "title": "Write headline",
+        "completed": false
+      },
+      {
+        "id": "sub-004",
+        "title": "Add CTA button",
+        "completed": false
+      }
+    ]
+  }
+]
