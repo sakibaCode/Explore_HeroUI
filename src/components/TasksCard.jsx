@@ -4,7 +4,7 @@ const TasksCard = ({ task }) => {
 
     const { title, description } = task
     return (
-        <div className="flex felx-col gap-4 border border-gray-400 rounded-2xl ">
+        <div className="flex felx-col gap-4 border border-gray-400 rounded-2xl mt-5">
             <Card className="w-[320px]" variant="transparent">
                 <Card.Header>
                     <Card.Title>{title}</Card.Title>
